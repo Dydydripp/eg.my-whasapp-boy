@@ -1,0 +1,21 @@
+
+
+*🗂️ Fichye: `package.json`*
+
+```json
+{
+  "name": "my-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp san OpenAI",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "pino": "^8.0.0"
+  }
+}
+```
+
+---
