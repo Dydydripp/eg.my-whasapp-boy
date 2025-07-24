@@ -1,8 +1,4 @@
 
-
-*🗂️ Fichye: `package.json`*
-
-```json
 {
   "name": "my-whatsapp-bot",
   "version": "1.0.0",
@@ -16,6 +12,6 @@
     "pino": "^8.0.0"
   }
 }
-```
+
 
 ---
