@@ -1,54 +1,53 @@
+
+
 ```markdown
-🤖 Levanter WhatsApp Bot – Personnalisé
+🤖 BotDydy WhatsApp Bot
 
-Bot WhatsApp basé sur *Levanter*, configuré spécialement pou +50935438072 🇭🇹  
-Fonksyone ak Baileys – reponn ```markdown
-🤖 Levanter WhatsApp Bot – Personnalisé
-
-Bot WhatsApp basé sur *Levanter*, configuré spécialement pou +50935438072 🇭🇹  
-Fonksyone ak Baileys – reponn otomatik, jenere imaj, li status, voye mesaj, ak plis.
+Yon bot WhatsApp ki fonksyone *san OpenAI*, rapid, senp ak itil pou w itilize sou WhatsApp pèsonèl ou.
 
 ---
 
-⚙️ Fonksyonalite yo
+⚙️ Fonksyonalite
 
-- ✅ Reponn otomatik mesaj
-- 🧠 Komand `.image` pou jenere imaj
-- 👁 Li status otomatik
-- 🔔 Notify lè kontak online
-- 📤 Spam yon fwa pa jou (opisyonèl)
-- 🎭 Komand personalizab
-- 🛠 Pa itilize OpenAI (local mode)
-
----
-
-🚀 Kòman pou w kouri li
-
-1. *Klon repo a*
-```bash
-git clone https://github.com/votre_nom/eg.my-whasapp-boy.git
-cd eg.my-whasapp-boy
-```
-
-2. *Enstale depandans*
-```bash
-yarn install
-```
-
-3. *Kopye fichye `.env` epi modifye*
-```env
-SUDO=+50935438072
-```
-
-4. *Kouri bot la*
-```bash
-node bot.js
-```
-
-5. *Eskane QR code la nan WhatsApp → Appareils connectés*
+- ✅ Repons otomatik “slt” 1 fwa pa jou
+- ✅ Auto-read mesaj
+- ✅ Auto-view status (li stati yo otomatikman)
+- ✅ Welcome & Bye mesaj pou nouvo manm nan gwoup
+- ✅ Anti-spam (banni moun kap voye twòp)
+- ✅ .foto – voye yon imaj
+- ✅ .videyo – voye yon videyo
+- ✅ .mizik – voye mizik
+- ✅ .ban + nimewo – banni yon itilizatè
+- ✅ .menu – montre lis kòmand
 
 ---
 
-📦 Devlopè
+🚀 Kòman pou lanse bot la
 
-> Bot modifyé pa [@tlenzarrykendy](https://github.com/tlenzarrykendy)
+1. *Clone repo a*
+   ```bash
+   git clone https://github.com/Dydydripp/BotDydy1.git
+   cd BotDydy1
+   ```
+
+2. *Enstale dependans yo*
+   ```bash
+   npm install
+   ```
+
+3. *Kouri bot la*
+   ```bash
+   node bot.js
+   ```
+
+4. *Scanne QR Code la*
+   - L ap parèt nan terminal   - Ouvri WhatsApp > Linked Devices > Link a device
+
+---
+
+🧾 Fichye ki enpòtan
+
+- `bot.js` — Script prensipal bot la
+- `.env` — Mete nimewo w, ak  anviwònman si nesesè
+- `session.json` — Pou sove koneksyon WhatsApp ou
+- `package.json` — 
